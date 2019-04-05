@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="" method="post" enctype="multipart/form-data" autocomplete="off">
+
+		<input type="file">
+
+		<label for="">用户名</label>
+		<input type="text" name="user" placeholder="请输入用户名" required>
+
+		<label for="">工号</label>
+		<input type="text" name="gonghao" placeholder="请输入工号" pattern="^\d{5}[imooc]$">
+
+		<input type="text" list="tips">
+		<datalist id="tips">
+			<option value="erwerewr"></option>
+			<option value="erwerewr2"></option>
+			<option value="erwerewr2r"></option>
+			<option value="erwerewrrs"></option>
+		</datalist>
+
+		<label for="man">男</label>
+		<input type="radio" name="sex" id="man" required>
+		<label for="woman">女</label>
+		<input type="radio" name="sex" id="woman" required>
+
+		<!-- <input type="submit" name="" formnovalidate=""> -->
+
+		<input type="submit">
+	</form>
+</body>
+</html>
